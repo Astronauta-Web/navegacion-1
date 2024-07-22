@@ -1,0 +1,33 @@
+
+.nav-bg{
+    display: flex;
+    justify-content: center;
+    background-color: #8A53B5;
+    
+
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    background-color:#8A53B5 ;
+    padding: 0.5rem;
+    width: 60rem;
+}
+
+.contenedor a{
+    background-color: #65477c;
+    border: solid 2px #8f8f8f  ;
+    color: beige;
+    font-family: "Kanit", sans-serif;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.contenedor a:hover{
+    background-color: beige;
+    color: #65477c;
+
+}
